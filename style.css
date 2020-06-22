@@ -1,0 +1,111 @@
+body {
+    background: hsla(0, 0%, 98%, 1);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* index.html */
+
+.navbar {
+    min-height: 0px !important;
+}
+
+.navbar-main {
+    background: transparent;
+}
+
+.navbar-logo {
+    max-height: 2.5rem;
+    height: 2.5rem;
+}
+
+.navbar-nav>li>a {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.text-primary {
+    color: #df1144 !important;
+}
+
+.index-container {
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 10rem;
+}
+
+.index-row {
+    min-height: 380px;
+}
+
+.index-heading {
+    padding-top: 6rem;
+    font-weight: 600;
+}
+
+.underline {
+    background-image: linear-gradient(to right, #ef4452, #ef4452);
+    background-repeat: no-repeat;
+    background-position: 0 85%;
+    background-size: 100% 0.225em;
+}
+
+.index-subheading {
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+
+.index-search {
+    margin-top: 3rem;
+}
+
+.index-input-div {
+    position: relative;
+}
+.search-dropdown-container{
+    border: 2px solid #ef4452 !important;
+    border-radius: 5px;
+}
+.index-search-input {
+    padding: 22px 15px 22px 42px;
+}
+
+.index-submit-button.btn {
+    margin-left: .5rem;
+    padding: 11px 20px;
+}
+
+@media (min-width: 1200px){
+.index-landing-image {
+    transform: scale(1.2) !important;
+}
+}
+
+.tiktok-avatar {
+    width: 110px;
+    height: 110px;
+}
+
+
+
+
+/* profile details */
+
+.report-header-number {
+    font-size: 1.45rem;
+    font-weight: 200;
+}
+
+.like-color {
+    color: #ED4956;
+}
+
+.ticktok-video-content{
+    border: 1px #ED4956 solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.tiktok-video {
+    display: inline-block;
+    position: relative;
+}
